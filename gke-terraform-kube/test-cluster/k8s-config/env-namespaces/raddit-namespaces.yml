@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cmsa-stage
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cmsa-prod
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: infra
